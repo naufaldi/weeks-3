@@ -1,0 +1,72 @@
+header {
+  max-width: 1280px;
+  padding: 10px 24px;
+  background-color: green;
+  margin: 0 auto;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+
+main {
+  grid-template-columns: repeat(12, 1fr);
+  display: grid;
+  max-width: 1280px;
+  padding: 10px;
+  background-color: #ad6363;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+section {
+  grid-column: span 12 / span 12;
+  background-color: aquamarine;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+form {
+  width: 50%;
+}
+.content-img {
+  width: 50%;
+  height: auto;
+}
+input {
+  height: 30px;
+}
+aside {
+  grid-column: span 12 / span 12;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+ul {
+  list-style: none;
+}
+footer {
+  height: 10vh;
+  padding: 10px;
+  background-color: blanchedalmond;
+  max-width: 1280px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.content-button {
+  padding: 20px 40px;
+  background-color: red;
+  font-size: 16px;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  &:hover {
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+  }
+}

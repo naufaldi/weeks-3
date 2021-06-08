@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Animation
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+    border-radius: 100px;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+    border-radius: 99999px;
+  }
+}
+
+.fade-in {
+  animation-name: fadeInLeft;
+  animation-duration: 10000ms;
+  animation-timing-function: ease-in-out;
+}
+@import 'dekstop';
+@import 'responsive';
